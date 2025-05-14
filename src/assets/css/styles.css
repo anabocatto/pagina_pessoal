@@ -1,0 +1,34 @@
+:root {
+  --rosa-bebe: #fce4ec;
+  --rosa-claro: #f8bbd0;
+  --branco: #ffffff;
+  --cinza-texto: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--rosa-bebe);
+  color: var(--cinza-texto);
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--branco);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+}
